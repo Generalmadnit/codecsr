@@ -46,8 +46,6 @@ label{
 }
 input[type="checkbox"]{
     accent-color:green;
-    padding:2%;
-    font-size:5%;
 }
 .btn{
     background-color: green;
