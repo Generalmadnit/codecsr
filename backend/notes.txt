@@ -1,0 +1,25 @@
+Console IO:
+    Console input output
+
+Console Input:
+    Program obtains values to variables during the runtime
+
+    1) import java.util.Scanner;
+    2) Scanner sc = new Scanner(System.in);
+    .
+    .
+    .
+    int s = sc.nextInt();
+    .
+    .
+    double price = sc.nextDouble();
+    .
+    .
+    String name = sc.next();
+
+Console Output:
+
+
+Note:
+    - Syntax is better than grammatical rules
+    - Best practices > Syntax
