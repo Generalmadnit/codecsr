@@ -1,25 +1,10 @@
-Console IO:
-    Console input output
+1. Encapsulation:
 
-Console Input:
-    Program obtains values to variables during the runtime
+code which can process the data into a single programming unit and prove the only way to access the data
+if not operations directly on data (by without having enough knowledge) may cause to inconsistency of the object
 
-    1) import java.util.Scanner;
-    2) Scanner sc = new Scanner(System.in);
-    .
-    .
-    .
-    int s = sc.nextInt();
-    .
-    .
-    double price = sc.nextDouble();
-    .
-    .
-    String name = sc.next();
+how to?
++ variables with private/degault access
++ methods with public
 
-Console Output:
-
-
-Note:
-    - Syntax is better than grammatical rules
-    - Best practices > Syntax
+(if the .java is new than the .class file then the jvm compiles it and then updates the )
