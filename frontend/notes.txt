@@ -1,0 +1,15 @@
+To learn abous css animations you must follow the below properties:
+- @keyframes
+- animation-name
+- animation-duraiton
+- animation-delay
+- animation-iteration-count
+- animation-direction
+- animation-timing-function
+- animation-fill-mode
+
+@Keyframes Rule
+- when you specify CSS styles inside the @Keyframes rule, the animation will gradually change from the current style to the 
+new style at certain times.
+- To get animation to work, you must bind the animation to an element
+
