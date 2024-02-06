@@ -1,0 +1,123 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    background-color:black;
+}
+/* .bad{
+    height:50px;
+    width:50px;
+}
+#one{
+
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    padding-top:20%;
+    /* background-color:yellow;
+    animation-name:hello;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    /* animation-direction:alternate-reverse; */
+    /* animation-play-state:running; 
+    animaiton-fill-mode:forwards;
+    animation-timing-function:linear; 
+} */
+.outside{
+    border-radius:80% 80%;
+    border-style:dotted;
+    border-top-color:green;
+    border-bottom-color:darkblue;
+    animation: moves 6s infinite;
+    border-width:2px;
+}
+
+.inside{
+    border-radius:50% 50%;
+    border-style:dotted;
+    border-top-color:red;
+    border-bottom-color:yellow;
+    border-width:2px;
+    animation: mov 3s infinite;
+}
+@keyframes mov{
+    0%{
+        transform:rotate(360deg);
+    }
+    50%{
+        transform:scale(0.8) rotate(-360deg);
+    }
+    100%{
+        transform:scale(1.2) rotate(-360deg);
+    }
+}
+@keyframes moves{
+    0%{
+        transform:scale(0.8) rotate(360deg);
+    }
+    50%{
+        transform:scale(1.2) rotate(-360deg);
+    }
+    100%{
+        transform:scale(1.2) rotate(360deg);
+    }
+}
+/* #two{
+    
+    background-color:yellow;
+    animation-name:hello;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    /* animation-direction:alternate-reverse; */
+    /* animation-play-state:running; 
+    animaiton-fill-mode:forwards;
+    animation-timing-function:easy-in;
+}
+#three{
+    
+    background-color:yellow;
+    animation-name:hello;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    /* animation-direction:alternate-reverse; */
+    /* animation-play-state:running; 
+    animaiton-fill-mode:forwards;
+    animation-timing-function:easy-out;
+}
+#four{
+    
+    background-color:yellow;
+    animation-name:hello;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    /* animation-direction:alternate-reverse; */
+    /* animation-play-state:running; 
+    animaiton-fill-mode:forwards;
+    animation-timing-function:easy-in-out;
+}
+@keyframes hello{
+    0% {
+        background-color:red;
+        height:100px;
+        width:100px;
+    }
+    25%{
+        background-color:indigo;
+        broder-radius:20%;
+        transform:translateY(40px);
+    }
+    50%{
+        background-color:orange;
+        border-radius:40%;
+        transform:scale(1.2);
+    }
+    75%{
+        background-color:#1d9088;
+        border-radius:45%;
+        transform:translateX(800px);
+    }
+    100%{
+        background-color:yellowgreen;
+        border-radius:50%;
+        transform: translateX(500px);
+    }
+} */
