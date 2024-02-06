@@ -1,3 +1,12 @@
+Principles of OOP:
+------------------
+1. Encapsulation
+2. Abstraction
+3. inheritance
+4. polymorphism
+
+Explanation:
+------------
 1. Encapsulation:
 
 code which can process the data into a single programming unit and prove the only way to access the data
@@ -8,3 +17,52 @@ how to?
 + methods with public
 
 (if the .java is new than the .class file then the jvm compiles it and then updates the )
+
+2. Abstraction
+3. inheritance
+4. polymorphism
+
+Constructor:
+------------
+- member method
+- same as class name
+- no return value
+- we don't use object references, but new key word to call the method
+- called oly once in the life of an object, at time of object creation
+- Every calss have a default constructors
+- Implicit constructor -> allocate memory & intialize all members to defaults.
+-- Explicit constructors
+---> without args
+---> with args
+---> constructor overloading - no arg, all (possible) args constructor
+
+Layered architecture
+--------------------
+Presentation layer - traditional web app/jsp/reactjs/angular/android/ios 
+controller layer - controller / rest controller
+business service layer
+persistence layer - beans/dto/dao - jdbc impl, hibernate, spring database JPA, database
+
+toString: 
+--------
+- This method is used to convert primitive values to String
+- used to obtain String representation of an object (correct definition)
+- when an object is concatenated with a string then the method is called automatically by JRE
+
+Static:
+-------
+variable: memory for static variables is allocated in the class scope [if not static, memory allocated per object / instance basis]
+        it can accessed only with static methods
+        <<class_name>> variable
+        static String var;
+method: method definition qualified with "static" keyword
+        it can access static only static variables
+        <<class_name>>.method();
+        ex: public static void main()
+block: this gets executed when the first object gets created
+
+Final:
+------
+constant ex: final int a=55;
+- None of this class object can change the value of a final variable
+- Usually final variables declared with static access modifier
