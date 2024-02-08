@@ -13,3 +13,4 @@ To learn abous css animations you must follow the below properties:
 new style at certain times.
 - To get animation to work, you must bind the animation to an element
 
+Start of GIT / GITHUB
